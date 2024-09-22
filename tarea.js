@@ -6,7 +6,7 @@ function leerArchivoSimulado(rutaArchivo){
 }
 
 leerArchivoSimulado('input.txt').then((contenido) => {
-    console.log("Contenido del archivo");
+    console.log("Contenido del Archivo");
     console.log(contenido);
 })
 .catch((error) => {
@@ -14,4 +14,4 @@ leerArchivoSimulado('input.txt').then((contenido) => {
     
 } );
 
-leerArchivoSimulado('input.txt');
+leerArchivoSimulado('input.txt');   
